@@ -12,6 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ca5da607651b344f9c1b5575a28c766, type: 3}
   m_Name: Phase 1
   m_EditorClassIdentifier: 
-  minRange: 1
-  maxRange: 2
-  TimeTreshold: 5
+  TimeTreshold: 15
+  probabilities:
+  - 0.25
+  - 0.25
+  - 0.5
+  multipliers:
+  - 1.5
+  - 1.75
+  - 2
+  bullets:
+  - {fileID: 7261107213456429468, guid: d71076fffa9a71848b6da2de21f733c1, type: 3}
+  - {fileID: 4789213674566059644, guid: 8f6fe24c334a385478499707eabc0255, type: 3}
+  - {fileID: 4390344279314095774, guid: 921964f62464e01439dd2d1ab8fc2d15, type: 3}

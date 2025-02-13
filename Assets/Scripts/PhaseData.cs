@@ -6,6 +6,8 @@ using UnityEngine;
 public class PhaseData : ScriptableObject
 {
     public float TimeTreshold;
-    public float minRange;
-    public float maxRange;
+
+    public float[] probabilities;
+    public float[] multipliers;
+    public GameObject[] bullets;
 }
